@@ -43,7 +43,7 @@ A two-player arcade classic where players control paddles to bounce a ball and s
 
 ## Links
 
-- GitHub Repository: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
+- [GitHub Repository](https://github.com/Devdadude/Final-Project-Portfolio)
 - Live Website: [https://yourdomain.com](https://yourdomain.com)
 
 ---
