@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Games Portfolio</title>
+<link rel="stylesheet" href="style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#" data-section="about" class="nav-link active">About Me</a></li>
+      <li><a href="#" data-section="cookieclicker" class="nav-link">Cookie Clicker</a></li>
+      <li><a href="#" data-section="hangman" class="nav-link">Hangman</a></li>
+      <li><a href="#" data-section="pong" class="nav-link">Pong</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about" class="section active-section">
+    <h1>About Me</h1>
+    <p>Hello! I am Devin Santos, a junior at Mt. Eden High School. This is my first year trying coding. Overall, this year has taught me so much. Working with C++ was very difficult at first but I soon found out that I could learn it pretty quickly. Just when I started getting comfortable with C++, we started using Javascript. This turned out to be even more difficult for me. But, once again after some time I was able to pick it up. Overall, I think it was a sucessful year because I've learned a whole bunch.</p>
+    <h2>Socials</h2>
+    <ul class="socials">
+      <li>
+        <a href="https://www.snapchat.com/add/devsantos22" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-snapchat-ghost"></i> Snapchat
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/devdadude22" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="pong" class="section">
+    <h1>Pong</h1>
+    <div class="game-container">
+      <div class="game-description">
+        <h3>Pong</h3>
+        <p>Classic 2-player Pong game. Use W/S keys for player 1 and Up/Down arrows for player 2 to hit the ball.</p>
+      </div>
+      <div class="game-area">
+        <canvas id="pong-canvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section id="cookieclicker" class="section">
+    <h1>Cookie Clicker</h1>
+    <div id="cookie-clicker-container" class="game-container">
+      <div class="game-description">
+        <h3>Cookie Clicker</h3>
+        <p>Click the cookie to earn cookies! Buy cursors to automatically generate cookies every second.</p>
+      </div>
+      <div class="game-area">
+       
+      </div>
+    </div>
+  </section>
+
+  <section id="hangman" class="section">
+    <h1>Hangman</h1>
+    <div id="hangman-container" class="game-container">
+      <div class="game-description">
+        <h3>Hangman</h3>
+        <p>Guess the hidden word one letter at a time. Choose from different categories and avoid getting hanged!</p>
+      </div>
+      <div class="game-area">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
