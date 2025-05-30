@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello! I’m [Devin Santos], a student developer passionate about coding and creating interactive web projects. This portfolio showcases my journey through programming, especially in JavaScript, as part of my AP Computer Science studies.
+Hello! I’m Devin Santos, a student developer passionate about coding and creating interactive web projects. This portfolio showcases my journey through programming, especially in JavaScript, as part of my AP Computer Science studies. Learning coding this year was definitely a challenge but I had fun doing so. Learning C++ and Javascript felt like I could create my own games from scratch. Right when I thought about that, we started doing it for real. This class have been very fun and I'm glad to have taken it. 
 
 ---
 
@@ -29,7 +29,7 @@ Through building this site and the projects within it, I learned:
 
 ### Cookie Clicker
 
-A fun incremental clicker game where you click a cookie to earn points and buy upgrades that automate clicking.
+A fun incremental clicker game where you click a cookie to earn points.
 
 ### Hangman
 
